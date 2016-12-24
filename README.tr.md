@@ -54,10 +54,10 @@
 ##### Gönderilecek İstek
 		
 		HTTP POST
-		URL: http://ozetle.htkibar.com/summarizer
+		URL: http://ozetle.htkibar.com/summarize
 		{
 			"text": "Özetlenecek metin.",
-			"clusterCount": "Özetlenen metnin değerinin belirler ne kadar yüksek o kadar uzun. Tırnaksız sayı olması gerekmektedir."
+			"clusterCount": "Özetlenen metnin değerinin belirler ne kadar yüksek o kadar uzun. Tırnaksız sayı olması gerekmektedir.",
 			"token": "API TOKENINIZ"
 		}
 ##### Alınacak Cevap

@@ -50,14 +50,14 @@ This API summarizes texts given, specifically for Turkish texts. A token is need
 		{
 			"isValid": true
 		}
-### Summarizer
+### Summarize
 ##### Request
 		
 		HTTP POST
-		URL: http://ozetle.htkibar.com/summarizer
+		URL: http://ozetle.htkibar.com/summarize
 		{
 			"text": "Text to be summarized.",
-			"clusterCount": "A number that determines the length of summarized text. Bigger the number, longer the text. Must be a number *without* quotes"
+			"clusterCount": "A number that determines the length of summarized text. Bigger the number, longer the text. Must be a number *without* quotes",
 			"token": "YOUR API TOKEN"
 		}
 ##### Response
